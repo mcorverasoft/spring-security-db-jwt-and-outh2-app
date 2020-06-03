@@ -84,7 +84,7 @@ This application contains an implementation of Auditing and an implementation of
 	Your App already has robust security.
 	
 	
-11. Download or clone the client (Angular Project):
+11. **Download or clone the client (Angular Project)**
 
 	```bash
 		https://github.com/mcorverasoft/spring-security-db-jwt-and-outh2-app.git

@@ -2,9 +2,6 @@ app:
     jwtExpirationInMs: 604800000
     jwtSecret: JWTKeySecret
     jwtType: Bearer
-    auth:
-    tokenSecret: 926D96C90030DD58429D2751AC1BDBBC
-    tokenExpirationMsec: 864000000
     oauth2:
     # After successfully authenticating with the OAuth2 Provider,
     # we'll be generating an auth token for the user and sending the token to the
@@ -44,13 +41,6 @@ spring:
               scope:
                 - email
                 - public_profile
-            github:
-              clientId: 6497dcb5d4d490815e05
-              clientSecret: c36347dd7f97af0ca7fb641f62b30602ef94ebda
-              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
-              scope:
-                - user:email
-                - read:user
           provider:
             facebook:
               authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
