@@ -28,15 +28,15 @@ spring:
         client:
           registration:
             google:
-              clientId: 542762401870-02mnk0j71nmq550ad2tsedk9it60bnq5.apps.googleusercontent.com
-              clientSecret: _M-_lDfls5JAcBxU4y7rVwnW
+              clientId: GoogleAppClientId
+              clientSecret: GoogleAppClientSecret
               redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
               scope:
                 - email
                 - profile
             facebook:
-              clientId: 813152415755885
-              clientSecret: 1a636a4a71644bd3371d640871882438
+              clientId: FacebookAppClientId
+              clientSecret: FacebookAppClientSecret
               redirectUri: "{baseUrl}/oauth2/callback/{registrationId}" 
               scope:
                 - email
